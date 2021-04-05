@@ -1,0 +1,529 @@
+    /* ####################################################
+    :: Template Name: Essence - Fashion Ecommerce Template
+    :: Author: Colorlib
+    :: Author URL: https://colorlib.com
+    :: Description: Essence is smart & elegant fashion e-commerce Template. It's suitable for all e-commerce business platform.
+    :: Version: 1.0.0
+    :: Created: April 27, 2018
+    :: Last Updated: May 2, 2018
+    #################################################### */
+
+    /* ---------------------------------------
+    ##### - PLACE YOUR CUSTOM CSS HERE - #####
+    --------------------------------------- */
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,300&display=swap');
+
+    body{
+        font-family: 'Roboto', sans-serif !important ;
+        font-weight: 500;
+    }
+    .pagination .page-item.active .page-link{
+        background-color: rgb(185,141,59) !important;
+    }
+    /* ============================================ ==========================
+    ================================== NAVIGATION =============================
+    ============================================================================= */
+    /* .nav-item .nav-links:hover{
+        color: rgb(185,141,59) !important;
+    } */
+    .amado-nav ul li a{
+        font-family: 'Roboto', sans-serif !important;
+        font-weight: 500;
+        font-size: 16px !important;
+    }
+    .amado-nav ul li a:hover{
+        color: rgb(185,141,59) !important;
+    }
+    .active{
+        color: rgb(185,141,59) ;
+    }
+    /* a:after{
+        content: 'read';
+    } */
+    .active.nav-link:hover{
+        color: rgb(185,141,59) !important;
+    }
+    .nav-close{
+        background-color: rgb(185,141,59) !important;
+    }
+    .footer_area .single_widget_area .footer_menu .navbar-nav .nav-item.active .nav-link{
+        color: rgb(185,141,59);
+    }
+    .amado-navbar-toggler{
+        color: rgb(185,141,59) !important;
+    }
+    .nav-link:hover{
+        color: rgb(185,141,59) !important;
+    }
+    .mobile-nav .amado-navbar-toggler span{
+        background-color: rgb(185,141,59) !important;
+    }
+    .navbar-toggler{
+        background-color: rgb(185,141,59);
+    }
+   /* =================== SCROLL UP ================ */
+    #scrollUp{
+        background-color: rgb(185,141,59) !important;
+    }
+    /* ###########################################
+    -------------------- HOME ==================
+    ############################################### */
+    .line{
+        background-color:  rgb(0,66,136) !important;
+    }
+    .news-txt{
+        color: white !important;
+    }
+    .newsletter-area{
+        background-color: #202c45;
+    }
+  .popular{
+      font-size: 20px !important;
+      padding-left: 20px;
+      /* margin-top: 40px; */
+  }
+  .popular-container{
+      display: flex;
+      height: 70px;
+      /* background-color: red; */
+      justify-content: space-between;
+      align-items: center;
+  }
+  .btn-uploads{
+      display: flex;
+      height: 40px;
+      font-size: 13px;
+      width: 130px;
+      background-color: rgb(0,66,136); 
+      color: white !important;
+      justify-content: center;
+      align-items: center;
+      border-radius: 9px;
+      text-transform: uppercase;
+      transition: none !important;
+      margin-right: 20px;
+      font-family: 'Roboto', sans-serif;
+      font-weight: bold;
+
+  }
+  .btn-uploads:hover{
+      color: white;
+    transition: none !important;
+  }
+
+  @media (max-width: 738px){
+     .popular{
+        padding-left: 32px;
+     }
+  }
+
+
+
+
+  /* =======================================================================================
+  =================================== SIGN UP FORMS =========================================
+  -==================================================================================== */
+  @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
+*:focus {
+  outline: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #DDD;
+  font-size: 16px;
+  color: #222;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+#login-box {
+  position: relative;
+  margin: 5% auto;
+  width: 600px;
+  height: 400px;
+  background: #FFF;
+  margin-left: 30%;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  padding: 40px;
+  width: 300px;
+  height: 400px;
+}
+
+h1 {
+  margin: 0 0 20px 0;
+  font-weight: 300;
+  font-size: 28px;
+}
+
+input[type="text"],
+input[type="password"] {
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding: 4px;
+  width: 220px;
+  height: 32px;
+  border: none;
+  border-bottom: 1px solid #AAA;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  transition: 0.2s ease;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-bottom: 2px solid rgb(0,66,136);
+  color: rgb(0,66,136);
+  transition: 0.2s ease;
+}
+
+input[type="submit"] {
+  margin-top: 28px;
+  width: 120px;
+  height: 32px;
+  background: rgb(0,66,136);
+  border: none;
+  border-radius: 2px;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: 0.1s ease;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  opacity: 0.8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+
+input[type="submit"]:active {
+  opacity: 1;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+
+.or {
+  position: absolute;
+  top: 180px;
+  left: 280px;
+  width: 40px;
+  height: 40px;
+  background: #DDD;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  line-height: 40px;
+  text-align: center;
+}
+
+.right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  box-sizing: border-box;
+  padding: 40px;
+  width: 300px;
+  height: 400px;
+  /* background-image: url(../amado-master/img/bg-img/002.jpg) !important; */
+  background-color: rgb(0,66,136);
+  background-size: cover;
+  background-position: center;
+  border-radius: 0 2px 2px 0;
+}  
+.right .loginwith {
+  display: block;
+  margin-bottom: 40px;
+  font-size: 28px;
+  color: #FFF;
+  text-align: center;
+}
+
+button.social-signin {
+  margin-bottom: 20px;
+  width: 220px;
+  height: 36px;
+  border: none;
+  border-radius: 2px;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+button.social-signin:hover,
+button.social-signin:focus {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.2s ease;
+}
+
+button.social-signin:active {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  transition: 0.2s ease;
+}
+
+button.social-signin.facebook {
+  background: #32508E;
+}
+
+button.social-signin.twitter {
+  background: #55ACEE;
+}
+
+button.social-signin.google {
+  background: #DD4B39;
+}
+
+  /* =======================================================================================
+  =================================== SIGN UP END=========================================
+  -==================================================================================== */
+
+
+
+  /* =======================================================================================
+  =================================== BEGIN LOGIN FORMS =========================================
+  -==================================================================================== */
+  @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
+*:focus {
+  outline: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #DDD;
+  font-size: 16px;
+  color: #222;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+/* ===============================================================================================
+============================================= SIGNUP AND LOGIN ==================================
+==================================================================================================== */
+
+#login-box {
+  position: relative;
+  margin: 5% auto;
+  width: 600px;
+  height: 400px;
+  background: #FFF;
+  margin-left: 30%;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  padding: 40px;
+  width: 300px;
+  height: 400px;
+}
+
+h1 {
+  margin: 0 0 20px 0;
+  font-weight: 300;
+  font-size: 28px;
+}
+
+input[type="text"],
+input[type="password"] {
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding: 4px;
+  width: 220px;
+  height: 32px;
+  border: none;
+  border-bottom: 1px solid #AAA;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  transition: 0.2s ease;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-bottom: 2px solid rgb(0,66,136);
+  color: rgb(0,66,136);
+  transition: 0.2s ease;
+}
+
+input[type="submit"] {
+  margin-top: 28px;
+  width: 120px;
+  height: 32px;
+  background: rgb(0,66,136);
+  border: none;
+  border-radius: 2px;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: 0.1s ease;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  opacity: 0.8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+
+input[type="submit"]:active {
+  opacity: 1;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+
+.or {
+  position: absolute;
+  top: 180px;
+  left: 280px;
+  width: 40px;
+  height: 40px;
+  background: #DDD;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  line-height: 40px;
+  text-align: center;
+}
+
+.right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  box-sizing: border-box;
+  padding: 40px;
+  width: 300px;
+  height: 400px;
+  /* background-image: url(../amado-master/img/bg-img/002.jpg) !important; */
+  background-color: rgb(0,66,136);
+  background-size: cover;
+  background-position: center;
+  border-radius: 0 2px 2px 0;
+}  
+.right .loginwith {
+  display: block;
+  margin-bottom: 40px;
+  font-size: 28px;
+  color: #FFF;
+  text-align: center;
+}
+
+button.social-loginin {
+  margin-bottom: 20px;
+  width: 220px;
+  height: 36px;
+  border: none;
+  border-radius: 2px;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+button.social-loginin:hover,
+button.social-loginin:focus {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.2s ease;
+}
+
+button.social-loginin:active {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  transition: 0.2s ease;
+}
+
+button.social-loginin.facebook {
+  background: #32508E;
+}
+
+button.social-loginin.twitter {
+  background: #55ACEE;
+}
+
+button.social-loginin.google {
+  background: #DD4B39;
+}
+/* ======================|===========================================|============================ 
+=========================|MEDIA QUERIES FOR SIGN UP AND LOGIN UP FORM| ============================= 
+================================================================================================ */
+@media only screen and  (max-width: 789px){
+
+  
+
+}
+
+
+
+
+
+/* ======================|===========================================|============================ 
+=========================| END OF MEDIA QUERIES FOR SIGN UP AND LOGIN UP FORM| ====================== 
+================================================================================================ */
+
+
+  /* =======================================================================================
+  ===================================  LOGIN FORMS END =========================================
+  -==================================================================================== */
+
+/* ============================================================================================
+---------------================= ===== DEPARTMENT/SHOP -========================================
+================================================================================================ */
+ .catagories-menu ul li a:hover{
+     color: rgb(185,141,59) !important;
+ }
+ .product-topbar .total-products .view a:first-child {
+    background-color: rgb(185,141,59);
+  }
+ .Department-title{
+     font-weight: bold !important;
+     font-family: 'Roboto' sans-serif !important;
+     font-size: 16px !important;
+ }
+
+
+
+/* ============================================================================================
+---------------======================END OF  DEPARTMENT/SHOP -========================================
+================================================================================================ */
+
+/* ======================== SUBSCRIBE -=====================
+============================================================== */
+.newsletter-area .newsletter-form form input[type="submit"]{
+    background-color: rgb(185,141,59);
+}
+.newsletter-area .newsletter-text h2 span{
+       color: rgb(185,141,59);
+}
+.subcribe-input{
+    margin-top: 70px !important;
+}
+/*======================================================================
+ ============================ FOOTER ===================================
+ ======================================================================*/
+.footer_area{
+    background-color: rgba(17, 17, 17, 0.9) !important;
+}
+
+
+
