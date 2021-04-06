@@ -459,8 +459,10 @@ img {
       padding: 20px 0;
       display: block;
       line-height: 0.9;
-      color: #131212;
-      font-weight: normal; }
+      /* color: #131212; */
+      color: rgb(0,66,136);
+      font-weight: normal;
+      }
       .main-content-wrapper .header-area .amado-nav li a::after {
         -webkit-transition-duration: 500ms;
         transition-duration: 500ms;
@@ -493,8 +495,10 @@ img {
       text-transform: uppercase;
       font-size: 16px;
       padding: 15px 0;
-      color: #131212;
-      line-height: 1; }
+      /* color: #131212; */
+      color: rgb(0,66,136);
+      line-height: 1;
+      }
       .main-content-wrapper .header-area .cart-fav-search a .search-nav {
         padding-bottom: 0; }
       .main-content-wrapper .header-area .cart-fav-search a span {
